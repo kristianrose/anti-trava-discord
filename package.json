@@ -1,0 +1,19 @@
+{
+  "name": "anti-trava",
+  "version": "0.0.1",
+  "description": "Um simples anti-trava para Discord, lembrando que é pesado por tanto mesmo não sendo um traver ele irá punir como spam.",
+  "main": "pesado.js",
+  "scripts": {
+    "start": "node pesado.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.4.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node"
+  ]
+}
