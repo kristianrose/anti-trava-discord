@@ -22,7 +22,7 @@ antiTrava.on('message', message => {
     const { lastMessage, timer } = DataUsuario;
     const deferença = message.createdTimestamp - lastMessage.createdTimestamp; //Comparar a ultima mensagem e a atual do spam
     let msgquanti = DataUsuario.msgquanti; //Quantidade de mensagens enviadas pelo mesmo usuario salvo
-    console.log(deferença); //Enviar na console a deferença ente as mensagens
+    console.log(deferença); //Enviar na console a diferença ente as mensagens
     if(deferença > DIFF) {
       clearTimeout(timer); //Limpar o Timout (Tempo)
       console.log('Timeout foi limpo');
